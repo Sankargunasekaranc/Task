@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.Home {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(
+    to right,
+    rgb(166, 163, 163),
+    rgb(136, 135, 135)
+  );
+}
+.Home > .btn {
+  position: relative;
+  top: 70px;
+  left: 200px;
+  height: 40px;
+  width: 250px;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 0px !important;
+  font-family: "Montserrat", sans-serif;
+}
+.offcanvas-header {
+  height: 80px;
+
+  background-color: #39aebc;
+  color: #fff;
+}
+.para {
+  font-weight: 500;
+}
+.traits {
+  width: 100%;
+  padding-right: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+.circle1 {
+  position: relative;
+  bottom: -5px;
+  height: 15px;
+  width: 15px;
+  background-color: #5ddb78;
+  border-radius: 15px;
+  margin-left: 5px;
+  margin-right: 3px;
+}
+.circle2 {
+  position: relative;
+  bottom: -5px;
+  height: 15px;
+  width: 15px;
+  background-color: #d24572;
+  border-radius: 15px;
+  margin-left: 5px;
+  margin-right: 3px;
+}
+.segment_feild {
+  display: flex;
+}
+.new {
+}
+.button_save {
+  background-color: #39aebc;
+}
+.footer_content {
+  display: flex;
+}
+.button_cancel {
+  color: red;
+  background-color: #eee;
+}
+.savebtn
+{
+  border: none ;
+  text-decoration: underline;
+  color: #5ddb78;
+  background-color: #fff;
+  width: 100%;
+}
+.save
+{
+  position: absolute;
+  bottom: 50px;
+  height: 40px;
+  width: 180px;
+  color: #fff;
+  line-height: 2px;
+  font-weight: 500;
+  background-color:  #5ddb78;
+}
+.btnclose
+{
+  border: none;
+  color: #d24572;
+  font-weight: 500;
+  position: absolute;
+  left: 200px;
+  bottom: 50px;
+  height: 40px;
+  width: 100px;
+}
+.traits_main
+{
+  display: flex;
+  /* justify-content: flex-end; */
+}
